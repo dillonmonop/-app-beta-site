@@ -456,3 +456,20 @@ h3 {
     font-size: clamp(3rem, 15vw, 4.8rem);
   }
 }
+
+.form-card {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-xl);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.form-card iframe {
+  display: block;
+  width: 100%;
+  min-height: 760px;
+  border: 0;
+  border-radius: 22px;
+}
