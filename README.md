@@ -1,12 +1,14 @@
-# App Beta Site
+# Cuehold Beta Site
 
-Static beta landing page for the upcoming iPhone app currently using an internal codename.
+Static beta landing page for Cuehold, the external beta name for the iPhone app currently developed under the internal codename BrainOS.
 
 This repo will host the public beta website, waitlist page, privacy page, and support page for External TestFlight preparation.
 
 ## Current status
 
-- Public name: pending
+- Public beta name: Cuehold
+- Internal codename: BrainOS
+- Final legal/name clearance: pending
 - Domain: pending
 - Hosting: GitHub Pages
 - Stage: Internal TestFlight / External Beta preparation
@@ -15,7 +17,13 @@ This repo will host the public beta website, waitlist page, privacy page, and su
 
 ## Site structure
 
-text / ├── index.html       # Landing page ├── beta.html        # Waitlist / beta interest page ├── privacy.html     # Privacy policy ├── support.html     # Support/contact page ├── styles.css       # Shared styling └── assets/          # Images, screenshots, icons 
+```text
+/
+├── index.html
+├── beta.html
+├── privacy.html
+├── support.html
+└── styles.css
 
 ## Pages needed
 
@@ -26,11 +34,11 @@ text / ├── index.html       # Landing page ├── beta.html        # Wa
 
 ## Product positioning
 
-This app helps users capture messy thoughts, screenshots, voice notes, pasted text, and shared content, then triage them into clearer next actions.
+Cuehold helps users capture messy thoughts, screenshots, voice notes, pasted text, and shared content, then triage them into clearer next actions.
 
 It does not replace Apple Reminders or Apple Calendar.
 
-The app helps users decide what matters, then safely exports commitments into Apple native apps only when the user chooses.
+Cuehold helps users decide what matters. Apple Reminders reminds. Apple Calendar maps time.
 
 ## Non-negotiables
 
