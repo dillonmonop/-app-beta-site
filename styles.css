@@ -302,14 +302,16 @@ p {
 
 .screenshot-strip {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 315px));
   gap: 18px;
   align-items: start;
+  justify-content: center;
 }
 
 .screenshot-card {
   margin: 0;
-  padding: 10px 10px 18px;
+  width: 100%;
+  padding: 12px 12px 18px;
   border: 1px solid var(--line);
   border-radius: var(--radius-xl);
   background:
@@ -320,10 +322,10 @@ p {
 
 .screenshot-card img {
   display: block;
-  width: 100%;
+  width: min(100%, 285px);
   height: auto;
-  max-height: 620px;
-  object-fit: cover;
+  margin: 0 auto;
+  object-fit: contain;
   object-position: top;
   border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 28px;
@@ -438,9 +440,13 @@ p {
   }
 
   .screenshot-card {
-    max-width: 340px;
+    max-width: 315px;
     width: 100%;
     justify-self: center;
+  }
+
+  .screenshot-card img {
+    width: min(100%, 285px);
   }
 
   .card {
