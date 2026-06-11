@@ -247,6 +247,14 @@ p {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.compact-cards .card {
+  min-height: 0;
+}
+
+.example-cards h3 {
+  color: var(--text);
+}
+
 .card {
   min-height: 210px;
   padding: 24px;
